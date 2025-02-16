@@ -10,7 +10,7 @@ sideNavMenu.addEventListener("click", function () {
     sidenavbar.style.marginLeft = "0px"
 })
 document.getElementById("side-navbar-close").addEventListener("click", () => {
-    document.querySelector(".side-navbar").style.marginLeft = "-50%"
+    document.querySelector(".side-navbar").style.marginLeft = "-60%"
 })
 var sliderleftbutton = document.getElementById("slider-left-activate")
 var sliderrightbutton = document.getElementById("slider-right-activate")

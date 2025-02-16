@@ -20,13 +20,6 @@ sideNavMenu.addEventListener("click",function(){
 document.getElementById("side-navbar-close").addEventListener("click",()=>{
     document.querySelector(".side-navbar").style.marginLeft = "-60%"
 })
-
-
-    
-   
-
-
-
 var container=document.querySelector(".products")
 products.forEach((product)=>{
     var createItem = document.createElement("div")
